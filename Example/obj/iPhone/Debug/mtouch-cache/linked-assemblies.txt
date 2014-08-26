@@ -1,0 +1,6 @@
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/Example.exe
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/TUSafariActivity.dll
+/Users/kip/Projects/TUSafariActivity/Example/obj/iPhone/Debug/mtouch-cache/Link/System.dll

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{EAD7DBEF-90A7-4858-80FF-EC0B750368B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TUSafariActivity</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>TUSafariActivity</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\TUSafariActivity.bundle\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TUSafariActivity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari-ios7.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari-ios7%402x.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari-ios7%402x~ipad.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari-ios7~ipad.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari%402x.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari%402x~ipad.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\Safari~ipad.png" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\cs.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\de.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\en.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\es.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\eu.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\fi.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\fr.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\it.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\ja.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\ko.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\nl.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\no.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\pl.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\pt.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\ru.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\sk.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\sv.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\vi.lproj\TUSafariActivity.strings" />
+    <BundleResource Include="Resources\TUSafariActivity.bundle\zh_CN.lproj\TUSafariActivity.strings" />
+  </ItemGroup>
+</Project>

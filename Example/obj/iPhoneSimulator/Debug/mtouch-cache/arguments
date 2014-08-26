@@ -1,0 +1,29 @@
+# Version: 7.2.6.28 (606f31a)
+# [first argument, ignore] # /Users/kip/Projects/TUSafariActivity/Example/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/kip/Projects/TUSafariActivity/Example/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/kip/Projects/TUSafariActivity/Example/bin/iPhoneSimulator/Debug/Example.app \
+	-r \
+	/Users/kip/Projects/TUSafariActivity/TUSafariActivity/bin/Debug/TUSafariActivity.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	6.1 \
+	--abi=i386 \
+	/Users/kip/Projects/TUSafariActivity/Example/bin/iPhoneSimulator/Debug/Example.exe \
